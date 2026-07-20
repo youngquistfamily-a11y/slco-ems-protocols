@@ -1,4 +1,6 @@
 {
+  "generatedAt": "2026-07-20T18:37:54Z",
+  "sourceCheckedAt": "2026-07-20T18:37:20Z",
   "documents": {
     "main-protocols": {
       "id": "main-protocols",
@@ -462,5 +464,6 @@
       "docId": "sexual-assault-abuse",
       "page": 1
     }
-  ]
+  ],
+  "departmentVariances": []
 }

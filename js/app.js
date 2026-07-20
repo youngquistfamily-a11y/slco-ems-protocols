@@ -103,6 +103,7 @@ function allNavEntries() {
   for (const cat of p.clinicalCategories) entries.push(...cat.protocols);
   entries.push(...p.reference);
   entries.push(...p.administrative);
+  entries.push(...(p.departmentVariances || []));
   return entries;
 }
 
@@ -158,9 +159,18 @@ function favStarHTML() {
   return `<span class="row-fav-star"><svg viewBox="0 0 24 24"><path d="M12 4.5c1.7-2 5.7-2.3 7.8.5 2 2.7 1 6-1 8-2 2-4.8 4.3-6.8 6-2-1.7-4.8-4-6.8-6-2-2-3-5.3-1-8 2.1-2.8 6.1-2.5 7.8-.5z" fill="currentColor"/></svg></span>`;
 }
 
+function formatUpdatedDate(iso) {
+  if (!iso) return null;
+  const d = new Date(iso);
+  if (isNaN(d.getTime())) return null;
+  return d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" });
+}
+
 function renderHome() {
   const p = state.protocols;
-  let html = `<div class="section-title">Clinical Protocols</div><div class="card-list">`;
+  const updated = formatUpdatedDate(p.sourceCheckedAt || p.generatedAt);
+  let html = updated ? `<div class="updated-line">Updated ${updated}</div>` : "";
+  html += `<div class="section-title">Clinical Protocols</div><div class="card-list">`;
   html += p.clinicalCategories.map((cat) => `
     <button class="row-btn" data-nav="category" data-cat="${cat.id}">
       <span class="category-icon">${CATEGORY_ICONS[cat.id] || "📋"}</span>
@@ -199,9 +209,15 @@ function renderFavorites() {
 
 function renderAdmin() {
   const p = state.protocols;
-  el.app.innerHTML = `<div class="section-title">Administrative & Operational</div><div class="card-list">${
+  let html = `<div class="section-title">Administrative & Operational</div><div class="card-list">${
     p.administrative.map((a) => rowHTML(a, { icon: "📋" })).join("")
   }</div>`;
+  if (p.departmentVariances && p.departmentVariances.length) {
+    html += `<div class="section-title">Department Variances</div><div class="card-list">${
+      p.departmentVariances.map((v) => rowHTML(v, { icon: "🚑" })).join("")
+    }</div>`;
+  }
+  el.app.innerHTML = html;
 }
 
 function renderSettings() {
