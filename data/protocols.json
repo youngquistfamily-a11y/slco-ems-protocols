@@ -1,0 +1,466 @@
+{
+  "documents": {
+    "main-protocols": {
+      "id": "main-protocols",
+      "title": "Salt Lake County EMS Protocols",
+      "file": "main-protocols.pdf"
+    },
+    "district-bylaws": {
+      "id": "district-bylaws",
+      "title": "District ByLaws",
+      "file": "District-Bylaws.pdf"
+    },
+    "crime-scene-guidelines": {
+      "id": "crime-scene-guidelines",
+      "title": "Crime Scene Guidelines",
+      "file": "Crime-Scene-Guidelines.pdf"
+    },
+    "hazmat-contamination-control": {
+      "id": "hazmat-contamination-control",
+      "title": "Hazardous Material Contamination Control",
+      "file": "Hazardous-Material-Contamination-Control.pdf"
+    },
+    "helicopter-response": {
+      "id": "helicopter-response",
+      "title": "Helicopter Response",
+      "file": "Helicopter-Response.pdf"
+    },
+    "hospital-diversion": {
+      "id": "hospital-diversion",
+      "title": "Hospital Diversion",
+      "file": "Hospital-Diversion.pdf"
+    },
+    "interfacility-transfers": {
+      "id": "interfacility-transfers",
+      "title": "Interfacility Transfers",
+      "file": "Interfacility-Transfers.pdf"
+    },
+    "paramedic-out-of-valley-transport": {
+      "id": "paramedic-out-of-valley-transport",
+      "title": "Paramedic Out of Valley Transport",
+      "file": "Paramedic-Out-of-Valley-Transport.pdf"
+    },
+    "scene-release-of-patients": {
+      "id": "scene-release-of-patients",
+      "title": "Scene Release of Patients",
+      "file": "Scene-Release-of-Patients.pdf"
+    },
+    "emergency-scene-responsibility": {
+      "id": "emergency-scene-responsibility",
+      "title": "Emergency Scene Responsibility",
+      "file": "Emergency-Scene-Responsibility.pdf"
+    },
+    "radio-report-triage-transport": {
+      "id": "radio-report-triage-transport",
+      "title": "Radio Report, Triage & Transport Selection",
+      "file": "Radio-Report-Triage-Transport.pdf"
+    },
+    "sexual-assault-abuse": {
+      "id": "sexual-assault-abuse",
+      "title": "Sexual Assault / Abuse",
+      "file": "Sexual-Assault-Abuse.pdf"
+    }
+  },
+  "clinicalCategories": [
+    {
+      "id": "general-patient-care-guidelines",
+      "title": "General Patient Care Guidelines",
+      "protocols": [
+        {
+          "id": "general-patient-care-guidelines-airway-management",
+          "title": "Airway Management",
+          "docId": "main-protocols",
+          "page": 8
+        },
+        {
+          "id": "general-patient-care-guidelines-altered-mental-status",
+          "title": "Altered Mental Status",
+          "docId": "main-protocols",
+          "page": 11
+        },
+        {
+          "id": "general-patient-care-guidelines-blood-product-transfusion",
+          "title": "Blood Product Transfusion",
+          "docId": "main-protocols",
+          "page": 12
+        },
+        {
+          "id": "general-patient-care-guidelines-death-determination-termination-of-resuscitation",
+          "title": "Death Determination & Termination Of Resuscitation",
+          "docId": "main-protocols",
+          "page": 14
+        },
+        {
+          "id": "general-patient-care-guidelines-family-centered-care",
+          "title": "Family Centered Care",
+          "docId": "main-protocols",
+          "page": 16
+        },
+        {
+          "id": "general-patient-care-guidelines-nausea-vomiting",
+          "title": "Nausea & Vomiting",
+          "docId": "main-protocols",
+          "page": 18
+        },
+        {
+          "id": "general-patient-care-guidelines-pain-management",
+          "title": "Pain Management",
+          "docId": "main-protocols",
+          "page": 19
+        },
+        {
+          "id": "general-patient-care-guidelines-pediatric-assessment",
+          "title": "Pediatric Assessment",
+          "docId": "main-protocols",
+          "page": 22
+        },
+        {
+          "id": "general-patient-care-guidelines-procedural-post-rosc-sedation",
+          "title": "Procedural / Post ROSC Sedation",
+          "docId": "main-protocols",
+          "page": 23
+        },
+        {
+          "id": "general-patient-care-guidelines-shock-sepsis-fluid-therapy",
+          "title": "Shock, Sepsis, & Fluid Therapy",
+          "docId": "main-protocols",
+          "page": 25
+        },
+        {
+          "id": "general-patient-care-guidelines-tracheostomy-management",
+          "title": "Tracheostomy Management",
+          "docId": "main-protocols",
+          "page": 28
+        }
+      ]
+    },
+    {
+      "id": "cardiac-patient-care-guidelines",
+      "title": "Cardiac Patient Care Guidelines",
+      "protocols": [
+        {
+          "id": "cardiac-patient-care-guidelines-bradycardia-symptomatic",
+          "title": "Bradycardia (Symptomatic)",
+          "docId": "main-protocols",
+          "page": 31
+        },
+        {
+          "id": "cardiac-patient-care-guidelines-cardiac-arrest",
+          "title": "Cardiac Arrest",
+          "docId": "main-protocols",
+          "page": 33
+        },
+        {
+          "id": "cardiac-patient-care-guidelines-cardiac-chest-pain-acute-coronary-syndrome",
+          "title": "Cardiac Chest Pain (Acute Coronary Syndrome)",
+          "docId": "main-protocols",
+          "page": 37
+        },
+        {
+          "id": "cardiac-patient-care-guidelines-congestive-heart-failure-pulmonary-edema",
+          "title": "Congestive Heart Failure / Pulmonary Edema",
+          "docId": "main-protocols",
+          "page": 39
+        },
+        {
+          "id": "cardiac-patient-care-guidelines-newborn-resuscitation",
+          "title": "Newborn Resuscitation",
+          "docId": "main-protocols",
+          "page": 41
+        },
+        {
+          "id": "cardiac-patient-care-guidelines-post-cardiac-arrest-rosc",
+          "title": "Post Cardiac Arrest (ROSC) / Return Of Spontaneous Circulation",
+          "docId": "main-protocols",
+          "page": 43
+        },
+        {
+          "id": "cardiac-patient-care-guidelines-tachycardia-with-a-pulse",
+          "title": "Tachycardia (With a Pulse)",
+          "docId": "main-protocols",
+          "page": 44
+        }
+      ]
+    },
+    {
+      "id": "medical-patient-care-guidelines",
+      "title": "Medical Patient Care Guidelines",
+      "protocols": [
+        {
+          "id": "medical-patient-care-guidelines-altitude-related-illnesses",
+          "title": "Altitude Related Illnesses",
+          "docId": "main-protocols",
+          "page": 47
+        },
+        {
+          "id": "medical-patient-care-guidelines-anaphylaxis-allergic-reaction",
+          "title": "Anaphylaxis / Allergic Reaction",
+          "docId": "main-protocols",
+          "page": 49
+        },
+        {
+          "id": "medical-patient-care-guidelines-behavioral-emergency",
+          "title": "Behavioral Emergency",
+          "docId": "main-protocols",
+          "page": 51
+        },
+        {
+          "id": "medical-patient-care-guidelines-drowning-or-submersion",
+          "title": "Drowning Or Submersion",
+          "docId": "main-protocols",
+          "page": 54
+        },
+        {
+          "id": "medical-patient-care-guidelines-fever-management",
+          "title": "Fever Management",
+          "docId": "main-protocols",
+          "page": 56
+        },
+        {
+          "id": "medical-patient-care-guidelines-hypoglycemia-hyperglycemia",
+          "title": "Hypoglycemia / Hyperglycemia",
+          "docId": "main-protocols",
+          "page": 57
+        },
+        {
+          "id": "medical-patient-care-guidelines-obstetrical-emergency",
+          "title": "Obstetrical Emergency",
+          "docId": "main-protocols",
+          "page": 59
+        },
+        {
+          "id": "medical-patient-care-guidelines-opioid-overdose",
+          "title": "Opioid Overdose",
+          "docId": "main-protocols",
+          "page": 62
+        },
+        {
+          "id": "medical-patient-care-guidelines-respiratory-distress",
+          "title": "Respiratory Distress",
+          "docId": "main-protocols",
+          "page": 64
+        },
+        {
+          "id": "medical-patient-care-guidelines-seizures",
+          "title": "Seizures",
+          "docId": "main-protocols",
+          "page": 66
+        },
+        {
+          "id": "medical-patient-care-guidelines-suspected-stroke",
+          "title": "Suspected Stroke",
+          "docId": "main-protocols",
+          "page": 68
+        },
+        {
+          "id": "medical-patient-care-guidelines-temperature-environmental-emergency",
+          "title": "Temperature & Environmental Emergency",
+          "docId": "main-protocols",
+          "page": 70
+        },
+        {
+          "id": "medical-patient-care-guidelines-toxic-exposure-carbon-monoxide",
+          "title": "Toxic Exposure - Carbon Monoxide",
+          "docId": "main-protocols",
+          "page": 72
+        },
+        {
+          "id": "medical-patient-care-guidelines-toxic-exposure-cyanide",
+          "title": "Toxic Exposure - Cyanide",
+          "docId": "main-protocols",
+          "page": 73
+        },
+        {
+          "id": "medical-patient-care-guidelines-toxic-exposure-hydrofluoric-acid",
+          "title": "Toxic Exposure - Hydrofluoric Acid",
+          "docId": "main-protocols",
+          "page": 75
+        },
+        {
+          "id": "medical-patient-care-guidelines-toxic-exposure-organophosphates-nerve-agents",
+          "title": "Toxic Exposure - Organophosphates / Nerve Agents",
+          "docId": "main-protocols",
+          "page": 77
+        }
+      ]
+    },
+    {
+      "id": "avalanche-patient-care-guidelines",
+      "title": "Avalanche Patient Care Guidelines",
+      "protocols": [
+        {
+          "id": "avalanche-patient-care-guidelines-avalanche-victim-management",
+          "title": "Avalanche Victim Management",
+          "docId": "main-protocols",
+          "page": 83
+        }
+      ]
+    },
+    {
+      "id": "trauma-patient-care-guidelines",
+      "title": "Trauma Patient Care Guidelines",
+      "protocols": [
+        {
+          "id": "trauma-patient-care-guidelines-guidelines-for-transport-of-trauma-patients-to-freestanding-emergency-departments-fsed",
+          "title": "Guidelines for Transport of Trauma Patients to Freestanding Emergency Departments (FSED)",
+          "docId": "main-protocols",
+          "page": 87
+        },
+        {
+          "id": "trauma-patient-care-guidelines-general-trauma-management",
+          "title": "General Trauma Management",
+          "docId": "main-protocols",
+          "page": 88
+        },
+        {
+          "id": "trauma-patient-care-guidelines-burns-thermal-electrical-lightning",
+          "title": "Burns \u2013 Thermal / Electrical / Lightning",
+          "docId": "main-protocols",
+          "page": 91
+        },
+        {
+          "id": "trauma-patient-care-guidelines-ent-dental-fractures-crush-injuries",
+          "title": "ENT / Dental / Fractures / Crush Injuries",
+          "docId": "main-protocols",
+          "page": 94
+        },
+        {
+          "id": "trauma-patient-care-guidelines-envenomation",
+          "title": "Envenomation",
+          "docId": "main-protocols",
+          "page": 96
+        },
+        {
+          "id": "trauma-patient-care-guidelines-head-injury-traumatic-brain-injury",
+          "title": "Head Injury (Traumatic Brain Injury)",
+          "docId": "main-protocols",
+          "page": 98
+        },
+        {
+          "id": "trauma-patient-care-guidelines-non-accidental-trauma-abuse",
+          "title": "Non-Accidental Trauma / Abuse",
+          "docId": "main-protocols",
+          "page": 100
+        },
+        {
+          "id": "trauma-patient-care-guidelines-spinal-motion-restrictions-smr",
+          "title": "Spinal Motion Restrictions (SMR)",
+          "docId": "main-protocols",
+          "page": 102
+        }
+      ]
+    },
+    {
+      "id": "appendix",
+      "title": "Appendix",
+      "protocols": [
+        {
+          "id": "appendix-acetaminophen",
+          "title": "Acetaminophen / Adenosine / Albuterol / Amiodarone / Aspirin / Atropine / Blood Product / Calcium (Chloride or gluconate) / Diazepam / Diphenhydramine / Dextrose / Epinephrine",
+          "docId": "main-protocols",
+          "page": 106
+        },
+        {
+          "id": "appendix-fentanyl",
+          "title": "Fentanyl / Glucagon / Glucose (Oral) / Haloperidol / Hydroxocobalamin / Ibuprofen / Ipratropium / Ketamine / Ketorolac / Lidocaine / Lorazepam / Magnesium Sulfate / Morphine",
+          "docId": "main-protocols",
+          "page": 107
+        },
+        {
+          "id": "appendix-midazolam",
+          "title": "Midazolam / Naloxone / Nitroglycerin / Norepinephrine / Ondansetron / Oxytocin (Pitocin) / Promethazine / Sodium Bicarbonate / Tranexamic Acid (TXA)",
+          "docId": "main-protocols",
+          "page": 108
+        }
+      ]
+    }
+  ],
+  "reference": [
+    {
+      "id": "salt-lake-county-ems-protocols",
+      "title": "Salt Lake County EMS Protocols",
+      "docId": "main-protocols",
+      "page": 1
+    },
+    {
+      "id": "guideline-changes-since-publication",
+      "title": "Guideline Changes Since Publication",
+      "docId": "main-protocols",
+      "page": 5
+    },
+    {
+      "id": "utah-state-fsed-freestanding-emergency-departments",
+      "title": "Utah State FSED (Freestanding Emergency Departments)",
+      "docId": "main-protocols",
+      "page": 6
+    }
+  ],
+  "administrative": [
+    {
+      "id": "district-bylaws",
+      "title": "District ByLaws",
+      "docId": "district-bylaws",
+      "page": 1
+    },
+    {
+      "id": "crime-scene-guidelines",
+      "title": "Crime Scene Guidelines",
+      "docId": "crime-scene-guidelines",
+      "page": 1
+    },
+    {
+      "id": "hazmat-contamination-control",
+      "title": "Hazardous Material Contamination Control",
+      "docId": "hazmat-contamination-control",
+      "page": 1
+    },
+    {
+      "id": "helicopter-response",
+      "title": "Helicopter Response",
+      "docId": "helicopter-response",
+      "page": 1
+    },
+    {
+      "id": "hospital-diversion",
+      "title": "Hospital Diversion",
+      "docId": "hospital-diversion",
+      "page": 1
+    },
+    {
+      "id": "interfacility-transfers",
+      "title": "Interfacility Transfers",
+      "docId": "interfacility-transfers",
+      "page": 1
+    },
+    {
+      "id": "paramedic-out-of-valley-transport",
+      "title": "Paramedic Out of Valley Transport",
+      "docId": "paramedic-out-of-valley-transport",
+      "page": 1
+    },
+    {
+      "id": "scene-release-of-patients",
+      "title": "Scene Release of Patients",
+      "docId": "scene-release-of-patients",
+      "page": 1
+    },
+    {
+      "id": "emergency-scene-responsibility",
+      "title": "Emergency Scene Responsibility",
+      "docId": "emergency-scene-responsibility",
+      "page": 1
+    },
+    {
+      "id": "radio-report-triage-transport",
+      "title": "Radio Report, Triage & Transport Selection",
+      "docId": "radio-report-triage-transport",
+      "page": 1
+    },
+    {
+      "id": "sexual-assault-abuse",
+      "title": "Sexual Assault / Abuse",
+      "docId": "sexual-assault-abuse",
+      "page": 1
+    }
+  ]
+}
